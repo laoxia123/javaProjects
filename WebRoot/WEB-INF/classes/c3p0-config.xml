@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<!-- 默认的配置，如果一会读取配置，默认找该配置 -->
+	<default-config>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql:///estore</property>
+		<property name="user">root</property>
+		<property name="password">123456</property>
+	</default-config>
+		
+</c3p0-config>
